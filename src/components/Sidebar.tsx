@@ -2,8 +2,7 @@ import React from "react";
 
 const Sidebar: React.FC = () => (
   <aside className="sidebar">
-    <div className="sidebar-name">YOUR NAME</div>
-
+  
     <nav className="sidebar-menu">
       <a href="#work">WORK</a>
       <a href="#about">ABOUT</a>

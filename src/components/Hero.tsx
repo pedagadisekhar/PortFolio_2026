@@ -6,22 +6,24 @@ const Hero: React.FC = () => (
       <h1>
         Hi there, I’m
         <br />
-        <span>Your Name</span>
+        <span>Chandra Sekhar</span>
       </h1>
 
-      <h2>Software Engineer</h2>
+      <h2>Full Stack Developer</h2>
 
       <p>
-        I build scalable web applications and clean user interfaces using
-        modern technologies.
+        I build scalable web applications and stunning user interfaces using
+        modern technologies like React, Node.js, and SpringBoot.
       </p>
 
-      <button className="btn-primary">Reach Out To Me</button>
+      <div className="hero-buttons">
+        <a href="#contact" className="btn-primary">Reach Out To Me</a>
+        <a href="#projects" className="btn-secondary">See My Work</a>
+      </div>
     </div>
 
     <div className="hero-right">
       <img src="/avatar.png" alt="avatar" />
-      <button className="btn-secondary">See My Work</button>
     </div>
   </section>
 );
